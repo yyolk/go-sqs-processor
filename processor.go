@@ -63,5 +63,4 @@ func main() {
 	if len(result.Messages) > 0 {
 		fmt.Println(result.Messages)
 	}
-	fmt.Println("vim-go")
 }
