@@ -1,0 +1,9 @@
+package: github.com/yyolk/go-sqs-processor
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v1.8.30
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/session
+  - service/sqs
